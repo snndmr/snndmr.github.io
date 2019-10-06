@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+
+        html {
+            display: table;
+            width: 100%;
+        }
+
+        body {
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+        .slider {
+            width: 50%;
+            height: 24px;
+            text-align: center;
+        }
+
+        .title {
+            font-family: monospace;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .text {
+            font-family: monospace;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        td {
+            text-align: center;
+            font-family: monospace;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+    <script id="vertex-shader" type="x-shader/x-vertex">
+        attribute vec4 vPosition;
+        attribute vec4 vColor;
+        varying vec4 color;
+        
+        void main() {
+            color = vColor;
+            gl_Position = vPosition * vec4(.5, .5, .5, 1);
+            }
+    </script>
+    <script id="fragment-shader" type="x-shader/x-fragment">
+        precision mediump float;
+
+        varying vec4 color;
+
+        void main() {
+            gl_FragColor = vec4( color );
+        }
+    </script>
+    <script type="text/javascript" src="../Common/webgl-utils.js"></script>
+    <script type="text/javascript" src="../Common/initShaders.js"></script>
+    <script type="text/javascript" src="Assignment1.js"></script>
+</head>
+
+<body>
+    <table align="center">
+        <caption>
+            <p class="title">Sinan Demir<br>Student ID : 16050111046</p>
+        </caption>
+        <tr>
+            <td><br><br></td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <canvas id="gl-canvas" width="512" height="512">
+                    Oops ... your browser doesn't support the HTML5 canvas element
+                </canvas>
+            </td>
+        </tr>
+        <tr>
+            <td><br></td>
+        </tr>
+        <tr>
+            <td>
+                <input type="radio" id="triangle_one" name="options" checked="checked">Red Triangle<br><br><br><br>
+                R : <input type="range" min="0" max="100" value="100" id="red_triangle_one" class="slider"><br>
+                G : <input type="range" min="0" max="100" value="0" id="green_triangle_one" class="slider"><br>
+                B : <input type="range" min="0" max="100" value="0" id="blue_triangle_one" class="slider"><br>
+                A : <input type="range" min="0" max="100" value="100" id="alpha_triangle_one" class="slider">
+            </td>
+            <td>
+                <input type="radio" id="triangle_two" name="options">Colorful Triangle<br><br>
+                <input type="radio" id="triangle_two_edge_one" name="options_edge" checked="checked">1. Edge
+                <input type="radio" id="triangle_two_edge_two" name="options_edge">2. Edge
+                <input type="radio" id="triangle_two_edge_thr" name="options_edge">3. Edge<br><br>
+                R : <input type="range" min="0" max="100" value="100" id="red_triangle_two" class="slider"><br>
+                G : <input type="range" min="0" max="100" value="40" id="green_triangle_two" class="slider"><br>
+                B : <input type="range" min="0" max="100" value="70" id="blue_triangle_two" class="slider"><br>
+                A : <input type="range" min="0" max="100" value="80" id="alpha_triangle_two" class="slider"><br>
+            </td>
+            <td>
+                <input type="radio" id="tetragon_one" name="options">Tetragon<br><br><br><br>
+                R : <input type="range" min="0" max="100" value="0" id="red_tetragon_one" class="slider"><br>
+                G : <input type="range" min="0" max="100" value="100" id="green_tetragon_one" class="slider"><br>
+                B : <input type="range" min="0" max="100" value="0" id="blue_tetragon_one" class="slider"><br>
+                A : <input type="range" min="0" max="100" value="100" id="alpha_tetragon_one" class="slider">
+            </td>
+        </tr>
+    </table>
+</body></html>
