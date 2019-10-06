@@ -15,10 +15,10 @@ window.onload = function init() {
         new Float32Array([1, .4, .7, .8,
                           .5, .9, .3, .7,
                           .7, .5, .3, .8, ]), /* -- Colorful Triangle Default Colors -- */
-        new Float32Array([.25, 1, .2, 1,
-                          .25, 1, .2, 1,
-                          .25, .8, 1, 1,
-                          .25, .8, 1, 1]) /* -- Tetragon Default Colors -- */
+        new Float32Array([0, 1, 0, 1,
+                          0, 1, 0, 1,
+                          0, 1, 0, 1,
+                          0, 1, 0, 1]) /* -- Tetragon Default Colors -- */
     ]
 
     init_html_elements(vertices_array, colors_array);
