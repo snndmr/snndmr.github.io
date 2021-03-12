@@ -1,2 +1,2 @@
-# snndmr.github.io
+# snndmr.me
  Personal Website
