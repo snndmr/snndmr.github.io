@@ -1,0 +1,29 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 24px;
+}
+
+.background {
+    height: 100%;
+    background-image: radial-gradient(#FFA17F, #00223E);
+}
+
+.middle {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+
+    color: black;
+    text-align: justify;
+    font-family: "Monaco", Monaco, monospace;
+}
