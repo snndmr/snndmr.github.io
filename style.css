@@ -5,16 +5,21 @@ html {
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 32px;
 }
 
 p {
-    font-size: 24px;
+    font-size: 20px;
+}
+
+a:link {
+    color: brown;
+    text-decoration: none;
 }
 
 .background {
     height: 100%;
-    background-image: radial-gradient(#FFA17F, #00223E);
+    background-image: linear-gradient(#c2e59c, #64b3f4);
 }
 
 .middle {
@@ -24,6 +29,7 @@ p {
     transform: translate(-50%, -50%);
 
     color: black;
+    line-height: 1.5;
     text-align: justify;
     font-family: "Monaco", Monaco, monospace;
 }
