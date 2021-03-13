@@ -1,25 +1,21 @@
-body,
-html {
+html,
+body {
     height: 100%;
     margin: 0;
-}
-
-h1 {
-    font-size: 32px;
 }
 
 p {
     font-size: 20px;
 }
 
-a:link {
-    color: brown;
+a {
+    color: firebrick;
     text-decoration: none;
 }
 
 .background {
     height: 100%;
-    background-image: linear-gradient(#c2e58c, #64b3f4);
+    background-image: linear-gradient(#F2E58C, #6FB3F4);
 }
 
 .middle {
@@ -27,6 +23,11 @@ a:link {
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
+
+    padding: 3%;
+    border-radius: 120px;
+    background-color: azure;
+    box-shadow: 10px 10px #444;
 
     color: black;
     line-height: 1.5;
