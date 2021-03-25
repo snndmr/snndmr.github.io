@@ -51,4 +51,5 @@ a {
 
 .department {
     font-weight: bold;
+    vertical-align: top;
 }
