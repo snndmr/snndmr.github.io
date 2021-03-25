@@ -48,3 +48,7 @@ a {
     text-align: right;
     background-color: yellow;
 }
+
+.department {
+    font-weight: bold;
+}
