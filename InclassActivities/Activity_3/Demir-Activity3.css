@@ -10,7 +10,7 @@ body {
 
 h1,
 h2 {
-    padding: .8rem;
+    padding: .4rem 1.2rem;
     border-radius: 1.6rem;
     background-image: linear-gradient(to right, #FFF194, #D1913C);
 }
