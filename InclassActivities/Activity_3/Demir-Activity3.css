@@ -5,12 +5,12 @@ html {
 
 body {
     color: black;
-    font: 1rem "Tahoma", "Arial", sans-serif;
+    font: 0.8rem "Tahoma", "Arial", sans-serif;
 }
 
 h1,
 h2 {
-    padding: .4rem 1.2rem;
+    padding: 0.8rem 1rem;
     border-radius: 1.6rem;
     background-image: linear-gradient(to right, #FFF194, #D1913C);
 }
@@ -30,7 +30,7 @@ ul {
 }
 
 ul li::before {
-    width: 2rem;
+    width: 1.2rem;
     content: "\279E";
     color: firebrick;
     display: inline-block;
@@ -54,7 +54,7 @@ a {
 }
 
 #wrapper {
-    margin: 1rem;
+    margin: 2rem;
     padding: 2rem;
     border-radius: 4rem;
     background-color: rgba(255, 255, 255, .85);
