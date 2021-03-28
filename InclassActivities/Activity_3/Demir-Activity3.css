@@ -1,15 +1,18 @@
-html,
-body {
+html {
     margin: auto;
+    height: 100%;
+}
+
+body {
     color: black;
     font: 1rem "Tahoma", "Arial", sans-serif;
 }
 
-h2,
-h1 {
-    border-radius: 1rem;
-    padding: 0.4rem 1rem;
-    background-image: linear-gradient(to right, #FFD194, #D1913C);
+h1,
+h2 {
+    padding: .8rem;
+    border-radius: 1.6rem;
+    background-image: linear-gradient(to right, #FFF194, #D1913C);
 }
 
 table {
@@ -18,7 +21,7 @@ table {
 
 th,
 td {
-    padding: 0.4rem 1rem;
+    padding: 0.8rem 1rem;
     border: 0.1em solid black;
 }
 
@@ -38,21 +41,6 @@ a {
     text-decoration: none;
 }
 
-#wrapper {
-    padding: 1rem;
-    margin: 1rem 0rem;
-    border-radius: 2rem;
-    background-color: rgba(240, 240, 240, .9);
-}
-
-#header {
-    font-size: 1.8em;
-}
-
-#news {
-    font-weight: bold
-}
-
 #main {
     top: 50%;
     left: 50%;
@@ -63,6 +51,21 @@ a {
 
 #main img {
     border: 2px solid black;
+}
+
+#wrapper {
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 4rem;
+    background-color: rgba(255, 255, 255, .85);
+}
+
+#header {
+    font-family: "Courier New", monospace
+}
+
+#news {
+    font-weight: bold;
 }
 
 #footer {
