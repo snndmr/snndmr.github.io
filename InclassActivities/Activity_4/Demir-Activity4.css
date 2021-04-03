@@ -1,0 +1,53 @@
+a {
+    color: firebrick;
+    text-decoration: none;
+}
+
+.header {
+    width: 70%;
+    margin: auto;
+}
+
+.logo {
+    float: left;
+    margin-right: 1rem;
+}
+
+.title {
+    font-size: 1.2rem;
+}
+
+.content {
+    width: 70%;
+    clear: both;
+    margin: 100px auto;
+}
+
+.image img {
+    float: left;
+    width: 250px;
+    margin-right: 1rem;
+}
+
+.main {
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.head {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.advertisement {
+    width: 100px;
+    height: 150px;
+    border-width: 2px;
+    border-color: black;
+    background-color: gray;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-weight: bold;
+}
