@@ -3,10 +3,10 @@ body {
     margin: 0 auto;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
         sans-serif;
-    background: linear-gradient(55deg, #CC95C0 0%, #DBD4B4 50%, #7AA1D2 85%);
+    background: linear-gradient(55deg, #cc95c0 0%, #dbd4b4 50%, #7aa1d2 85%);
 }
 
-/* Style the navigation bar */
+/* Navigation bar */
 .navbar {
     display: flex;
     position: fixed;
@@ -27,7 +27,6 @@ body {
     text-decoration: none;
 }
 
-/* Navbar links on mouse-over */
 .navbar a:hover {
     color: white;
     background-color: #000;
@@ -113,7 +112,6 @@ td {
     background-color: white;
 }
 
-/* Create two unequal columns that floats next to each other */
 /* Left column */
 .left-column {
     float: left;
@@ -127,7 +125,7 @@ td {
     padding-left: 2%;
 }
 
-/* Add a card effect for articles */
+/* Add a card effect for blog */
 .card {
     padding: 20px;
     margin-top: 50px;
