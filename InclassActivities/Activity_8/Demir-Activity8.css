@@ -7,7 +7,6 @@ body {
 a {
     color: white;
     text-decoration: none;
-    transition: color 0.2s ease-out;
 }
 
 a:hover {
@@ -17,7 +16,6 @@ a:hover {
 #game {
     width: 100%;
     height: 90%;
-    cursor: crosshair;
     background-image: linear-gradient(#70e1f5, #ffd194);
 }
 
@@ -29,32 +27,17 @@ a:hover {
     bottom: 0;
     color: white;
     background-color: black;
-    font-size: 1vw;
+    font-size: 1.8vh;
     text-align: center;
     vertical-align: middle;
 }
 
 .button {
+    color: white;
     padding: 8px;
-    color: black;
-    cursor: crosshair;
-    font-size: 1rem;
-    background-color: white;
     border: 2px solid black;
     border-radius: 8px;
-    transition: 500ms;
-}
-
-.button:hover {
-    color: white;
-    background-color: black;
-}
-
-.button:active {
-    color: white;
-    font-size: 1.2rem;
-    background-color: red;
-    box-shadow: 4px 4px gray;
+    background: url("image/blue_button.png") no-repeat;
 }
 
 .column {
@@ -68,7 +51,7 @@ a:hover {
 
 .middle {
     width: 60%;
-    font-size: 1.6vw;
+    font-size: 3.6vh;
 }
 
 .row:after {
