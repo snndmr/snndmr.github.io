@@ -1,0 +1,29 @@
+html,
+body {
+    margin: 1%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+label {
+    width: 200px;
+    float: left;
+    margin: 5px;
+}
+
+br {
+    clear: left;
+}
+
+.input {
+    background: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button {
+    border-radius: 5px;
+}
