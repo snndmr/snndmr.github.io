@@ -24,7 +24,6 @@ body {
     font-size: 1.2rem;
     text-align: center;
     text-decoration: none;
-    display: none;
 }
 
 .navbar a:hover {
@@ -149,4 +148,21 @@ td {
     float: right;
     display: flex;
     margin-top: 50px;
+}
+
+#popup {
+    display: none;
+    padding: 20px;
+    min-width: 500px;
+    min-height: 250px;
+    max-width: 500px;
+    border-radius: 10px;
+    text-align: justify;
+    box-shadow: 0 0 5px 5px orange;
+    background-color: #fff;
+}
+
+#popup .logo {
+    color: black;
+    font-family: "Courier New", Courier, monospace;
 }
