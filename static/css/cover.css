@@ -1,0 +1,20 @@
+.cover-container {
+  max-width: 42em;
+}
+
+.logo {
+  width: 2.4rem;
+  margin: 0.5rem;
+  filter: invert(1);
+}
+
+.social {
+  width: 1.6rem;
+  margin: 0.5rem;
+  filter: invert(1);
+}
+
+.social:hover {
+  filter: invert(87%) sepia(82%) saturate(1901%) hue-rotate(318deg)
+    brightness(106%) contrast(103%);
+}
